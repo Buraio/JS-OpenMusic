@@ -1,0 +1,94 @@
+.subHeading, .rangePrice {
+  font-size: var(--font-2);
+  margin: 60px 0;
+}
+
+.tagList {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  list-style: none;
+}
+
+.tag {
+  width: auto;
+  height: 32px;
+  background: var(--color-grey-8);
+  padding-inline: 0.5rem;
+  line-height: 32px;
+  border-radius: 4px;
+  color: var(--color-grey-2);
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.selected {
+  background: var(--color-disable-fixed);
+  border: 1px solid var(--color-white-fixed);
+  color: var(--color-white-fixed);
+}
+
+.rangeDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.albumList {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 38px;
+  list-style: none;
+}
+
+.album {
+  background-color: var(--color-grey-8);
+  border-radius: 8px;
+  width: 325px;
+  height: 280px;
+}
+
+.info, .value {
+  width: 90%;
+  display: flex;
+  gap: 16px;
+  margin: 12px auto;
+}
+
+.info > small, .value > button {
+  font-weight: 500;
+}
+
+.album > h3 {
+  padding: 10px 16px;
+}
+
+.album > h3, .value > span {
+  font-weight: 600;
+}
+
+.album > img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.value {
+  justify-content: space-between;
+}
+
+.value > span {
+  line-height: 32px;
+}
+
+.value > button {
+  width: 75px;
+  height: 32px;
+  font-size: var(--font-3);
+  font-family: 'Inter', sans-serif;
+  border: none;
+  border-radius: 4px;
+  color: var(--color-grey-2);
+  background-color: var(--color-grey-7);
+}
